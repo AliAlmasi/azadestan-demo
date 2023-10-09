@@ -112,6 +112,29 @@ a:active {
 }
 
 .wrapper {
-	width: 160rem;
+	width: 140rem;
 	margin: 0 auto;
+}
+
+header,
+footer {
+	height: 25vh;
+	background-image: linear-gradient(
+		270deg,
+		rgba(2, 79, 37, 1) 0%,
+		rgba(0, 166, 147, 1) 85%
+	);
+	background-size: auto;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	color: var(--white)
+}
+
+.header-footer__link {
+	color: inherit !important;
+	font-weight: 300;
+	font-size: 2rem;
 }
