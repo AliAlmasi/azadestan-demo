@@ -1,0 +1,82 @@
+@import url("./general.css");
+
+/* ----- HEADER SECTION ------ */
+
+header {
+	position: relative;
+	height: 25svh;
+	background-image: linear-gradient(
+		270deg,
+		rgba(2, 79, 37, 1) 0%,
+		rgba(0, 166, 147, 1) 85%
+	);
+	background-size: auto;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	display: flex;
+	justify-content: center;
+}
+
+#header-wave {
+	margin-top: -3rem;
+	z-index: -999;
+}
+
+.header__container {
+	display: flex;
+	align-items: center;
+	gap: 30rem;
+	color: var(--white);
+	padding-top: 10rem;
+}
+
+.header__title {
+	display: flex;
+	flex-direction: column;
+}
+
+.header__title h1 {
+	font-size: 6rem;
+}
+
+.header__title h2 {
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.header__container nav {
+	list-style: none;
+	display: flex;
+	font-size: 2rem;
+	gap: 20px;
+}
+
+.header__container nav li a {
+	color: inherit;
+	font-weight: 300;
+}
+
+#logo img {
+	background-color: var(--white);
+	width: 20rem;
+	border-radius: 10%;
+}
+
+#footer-wave {
+	z-index: -999;
+}
+
+footer {
+	height: 25vh;
+	background-image: linear-gradient(
+		270deg,
+		rgba(2, 79, 37, 1) 0%,
+		rgba(0, 166, 147, 1) 85%
+	);
+	background-size: auto;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	display: flex;
+	justify-content: center;
+	margin-top: -5rem;
+}

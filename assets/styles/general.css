@@ -1,0 +1,117 @@
+@import url("./fonts.css");
+
+:root {
+	--ash-gray-100: #1f3326;
+	--ash-gray-200: #3d664b;
+	--ash-gray-300: #5c9971;
+	--ash-gray-400: #8cba9c;
+	--ash-gray: #bfd9c8;
+	--ash-gray-600: #cce0d3;
+	--ash-gray-700: #d9e8de;
+	--ash-gray-800: #e6f0e9;
+	--ash-gray-900: #f2f7f4;
+	--tiffany-blue-100: #0d3531;
+	--tiffany-blue-200: #196961;
+	--tiffany-blue-300: #269e92;
+	--tiffany-blue-400: #37cebf;
+	--tiffany-blue: #69dbd0;
+	--tiffany-blue-600: #89e2d9;
+	--tiffany-blue-700: #a6eae3;
+	--tiffany-blue-800: #c4f1ec;
+	--tiffany-blue-900: #e1f8f6;
+	--persian-green-100: #00221e;
+	--persian-green-200: #00433b;
+	--persian-green-300: #006559;
+	--persian-green-400: #008777;
+	--persian-green: #00a693;
+	--persian-green-600: #00edd1;
+	--persian-green-700: #32ffe7;
+	--persian-green-800: #76ffef;
+	--persian-green-900: #bbfff7;
+	--cal-poly-green-100: #001007;
+	--cal-poly-green-200: #01200f;
+	--cal-poly-green-300: #013016;
+	--cal-poly-green-400: #02401e;
+	--cal-poly-green: #024f25;
+	--cal-poly-green-600: #04a34c;
+	--cal-poly-green-700: #06f772;
+	--cal-poly-green-800: #58fba1;
+	--cal-poly-green-900: #abfdd0;
+	--night-100: #000400;
+	--night-200: #000801;
+	--night-300: #010c01;
+	--night-400: #011001;
+	--night: #011502;
+	--night-600: #05710b;
+	--night-700: #0acf14;
+	--night-800: #44f64d;
+	--night-900: #a1fba6;
+
+	--white: #f0f0f0;
+}
+
+/*
+Default colors are:
+* (--ash-gray) #bfd9c8
+* (--tiffany-blue) #69dbd0
+* (--persian-green) #00a693
+* (--cal-poly-green) #024f25
+* (--night) #011502
+
+Tints and shades are generated and implemented with numbers from 100 to 900.
+*/
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: "Shabnam";
+	direction: rtl;
+}
+
+body {
+	font-family: inherit;
+	font-size: 1.6rem;
+	height: 100svh;
+	background-color: #f0f0f0;
+}
+
+*::selection {
+	color: var(--ash-gray);
+	background-color: var(--cal-poly-green);
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: var(--persian-green);
+}
+
+a:hover {
+	color: var(--tiffany-blue-700);
+	text-decoration: underline;
+}
+
+a:active {
+	color: var(--cal-poly-green);
+}
+
+.noselect {
+	user-select: none;
+}
+
+.nofarsi {
+	font-family: "Space Grotesk", sans-serif;
+	direction: ltr;
+}
+
+.wrapper {
+	width: 160rem;
+	margin: 0 auto;
+}
