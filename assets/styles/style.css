@@ -25,7 +25,7 @@
 
 .header__title h2 {
 	font-size: 2rem;
-	font-weight: 500;
+	font-weight: var(--font-wg-lg);
 }
 
 .header__container nav {
@@ -52,7 +52,7 @@ main {
 
 .main__parts h3 { 
 	font-size: 3rem;
-	font-weight: 500;
+	font-weight: var(--font-wg-lg);
 	margin-bottom: 1.6rem;
 	margin-right: 1rem;
 }
@@ -87,7 +87,7 @@ footer div {
 
 .footer__info-title {
 	font-size: 4rem;
-	font-weight: 500;
+	font-weight: var(--font-wg-lg);
 }
 
 .footer__info-subtitle {
@@ -95,5 +95,5 @@ footer div {
 }
 
 .footer__info-text {
-	font-weight: 100;
+	font-weight: var(--font-wg-xs);
 }

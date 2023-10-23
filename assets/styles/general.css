@@ -48,6 +48,12 @@
 	--night-900: #a1fba6;
 
 	--white: #f0f0f0;
+
+	--font-wg-xs: 100;
+	--font-wg-sm: 300;
+	--font-wg-md: 400;
+	--font-wg-lg: 500;
+	--font-wg-xl: 700;
 }
 
 /*
