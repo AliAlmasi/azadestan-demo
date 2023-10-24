@@ -28,10 +28,21 @@
 	font-weight: var(--font-wg-lg);
 }
 
-.header__container nav {
-	list-style: none;
+.current-issue {
+	font-size: 2.4rem;
+	font-weight: var(--font-wg-xs);
+}
+
+#header-centerbox {
 	display: flex;
-	gap: 20px;
+	flex-direction: column;
+	align-items: center;
+	gap: .8rem;
+}
+
+#header-centerbox nav {
+	display: flex;
+	gap: 2.6rem;
 }
 
 #logo img {
@@ -73,7 +84,6 @@ footer {
 }
 
 footer div {
-	list-style: none;
 	display: flex;
 	flex-direction: column;
 }

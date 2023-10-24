@@ -57,14 +57,14 @@
 }
 
 /*
-Default colors are:
+? Default colors are:
 * (--ash-gray) #bfd9c8
 * (--tiffany-blue) #69dbd0
 * (--persian-green) #00a693
 * (--cal-poly-green) #024f25
 * (--night) #011502
 
-Tints and shades are generated and implemented with numbers from 100 to 900.
+! Tints and shades are generated and implemented with numbers from 100 to 900.
 */
 
 *,
@@ -128,6 +128,10 @@ a:active {
 	direction: ltr;
 }
 
+.nounderline {
+	background-image: none !important;
+}
+
 .wrapper {
 	width: 140rem;
 	margin: 0 auto;
@@ -148,6 +152,7 @@ footer {
 	justify-content: center;
 	position: relative;
 	color: var(--white);
+	list-style: none;
 }
 
 header a:link,
@@ -159,6 +164,6 @@ footer a:visited {
 
 .header-footer__link {
 	color: inherit !important;
-	font-weight: 300;
+	font-weight: var(--font-wg-sm);
 	font-size: 2rem;
 }
