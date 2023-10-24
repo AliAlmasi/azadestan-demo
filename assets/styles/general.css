@@ -97,11 +97,22 @@ a:link,
 a:visited {
 	text-decoration: none;
 	color: var(--persian-green);
+	background-image: linear-gradient(var(--persian-green), var(--persian-green));
+	/* background-size: 0% 0.1em;
+	background-position-y: 100%;
+	background-position-x: 50%;
+	background-repeat: no-repeat; */
+	transition: background-size 0.2s ease-in-out;
+	background-size: 0% 0.1em;
+	background-position-y: 100%;
+	background-position-x: 0%;
+	background-repeat: no-repeat;
 }
 
 a:hover {
-	color: var(--tiffany-blue-700);
-	text-decoration: underline;
+	/* color: var(--tiffany-blue-200); */
+	background-size: 100% 0.1em;
+	background-position-x: 100%;
 }
 
 a:active {
@@ -136,7 +147,14 @@ footer {
 	display: flex;
 	justify-content: center;
 	position: relative;
-	color: var(--white)
+	color: var(--white);
+}
+
+header a:link,
+header a:visited,
+footer a:link,
+footer a:visited {
+	background-image: linear-gradient(var(--white), var(--white)) !important;
 }
 
 .header-footer__link {
