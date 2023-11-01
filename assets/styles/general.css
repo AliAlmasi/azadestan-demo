@@ -158,7 +158,9 @@ footer {
 header a:link,
 header a:visited,
 footer a:link,
-footer a:visited {
+footer a:visited,
+aside a:link,
+aside a:visited {
 	background-image: linear-gradient(var(--white), var(--white)) !important;
 }
 
